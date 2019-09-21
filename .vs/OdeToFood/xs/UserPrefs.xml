@@ -1,29 +1,19 @@
 ﻿<Properties StartupConfiguration="{6665AC90-39DD-429D-97AD-7B78AD82FA72}|">
   <MonoDevelop.Ide.ItemProperties.OdeToFood.Web PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="OdeToFood.Data/Models/CuisineType.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="OdeToFood.Web/Controllers/HomeController.cs">
     <Files>
-      <File FileName="OdeToFood.Web/Controllers/HomeController.cs" Line="1" Column="1" />
-      <File FileName="OdeToFood.Data/Models/Restaurant.cs" Line="11" Column="1" />
-      <File FileName="OdeToFood.Data/Models/CuisineType.cs" Line="6" Column="1" />
+      <File FileName="OdeToFood.Web/Controllers/HomeController.cs" Line="22" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="OdeToFood" expanded="True">
-            <Node name="OdeToFood.Data" expanded="True">
-              <Node name="Models" expanded="True">
-                <Node name="CuisineType.cs" selected="True" />
-              </Node>
-            </Node>
-            <Node name="OdeToFood.Web" expanded="True">
-              <Node name="Controllers" expanded="True" />
-            </Node>
+          <Node name="OdeToFood" expanded="True" selected="True">
+            <Node name="OdeToFood.Web" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.OdeToFood.Data FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
