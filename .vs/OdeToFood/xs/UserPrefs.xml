@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{6665AC90-39DD-429D-97AD-7B78AD82FA72}|">
-  <MonoDevelop.Ide.ItemProperties.OdeToFood.Web FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.OdeToFood.Web PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="OdeToFood.Web/Controllers/HomeController.cs">
     <Files>
       <File FileName="OdeToFood.Web/Controllers/HomeController.cs" Line="1" Column="1" />
@@ -8,10 +8,8 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="OdeToFood" expanded="True">
-            <Node name="OdeToFood.Web" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="HomeController.cs" selected="True" />
-              </Node>
+            <Node name="OdeToFood.Web" expanded="True" selected="True">
+              <Node name="Controllers" expanded="True" />
             </Node>
           </Node>
         </State>
