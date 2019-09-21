@@ -17,20 +17,13 @@ namespace OdeToFood.Web.Controllers
 			db = new InMemoryRestaurantData();
 		}
 
-		//     public ActionResult Index()
-		//     {
-		//         var mvcName = typeof(Controller).Assembly.GetName();
-		//         var isMono = Type.GetType("Mono.Runtime") != null;
-
-		//         ViewData["Version"] = mvcName.Version.Major + "." + mvcName.Version.Minor;
-		//         ViewData["Runtime"] = isMono ? "Mono" : ".NET";
-		//ViewData["Author"] = "Dino Buljubasic";
-
-		//         return View();
-		//     }
-
 		public ActionResult Index()
 		{
+            //var mvcName = typeof(Controller).Assembly.GetName();
+            //var isMono = Type.GetType("Mono.Runtime") != null;
+            //ViewData["Version"] = mvcName.Version.Major + "." + mvcName.Version.Minor;
+            //ViewData["Runtime"] = isMono ? "Mono" : ".NET";
+            //ViewData["Author"] = "Dino Buljubasic";
             var model = db.GetAll();
             return View(model);
 		}
@@ -43,6 +36,7 @@ namespace OdeToFood.Web.Controllers
 
         public ActionResult Contact()
 		{
+            ViewBag.Message = "Your contact page.";
 			return View();
 		}
 	}
