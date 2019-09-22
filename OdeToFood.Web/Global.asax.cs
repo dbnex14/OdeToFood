@@ -10,6 +10,7 @@ namespace OdeToFood.Web
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+			ContainerConfig.RegisterContainer();
         }
     }
 }
