@@ -1,27 +1,37 @@
 ﻿<Properties StartupConfiguration="{6665AC90-39DD-429D-97AD-7B78AD82FA72}|">
   <MonoDevelop.Ide.ItemProperties.OdeToFood.Web PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="OdeToFood.Web/Controllers/HomeController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="OdeToFood.Web/Views/Restaurants/NotFound.cshtml">
     <Files>
-      <File FileName="OdeToFood.Web/Controllers/HomeController.cs" Line="17" Column="26" />
-      <File FileName="OdeToFood.Web/Views/Home/Index.cshtml" />
-      <File FileName="OdeToFood.Web/App_Start/RouteConfig.cs" />
-      <File FileName="OdeToFood.Web/App_Start/ContainerConfig.cs" />
-      <File FileName="OdeToFood.Web/Global.asax.cs" />
+      <File FileName="OdeToFood.Web/Controllers/HomeController.cs" Line="20" Column="10" />
+      <File FileName="OdeToFood.Web/App_Start/RouteConfig.cs" Line="1" Column="1" />
+      <File FileName="OdeToFood.Web/App_Start/ContainerConfig.cs" Line="29" Column="1" />
+      <File FileName="OdeToFood.Web/Global.asax.cs" Line="15" Column="71" />
+      <File FileName="OdeToFood.Web/Views/Shared/_Layout.cshtml" Line="26" Column="67" />
+      <File FileName="OdeToFood.Web/App_Start/BundleConfig.cs" Line="1" Column="1" />
+      <File FileName="OdeToFood.Web/Controllers/RestaurantsController.cs" Line="30" Column="38" />
+      <File FileName="OdeToFood.Web/Views/Restaurants/Index.cshtml" Line="11" Column="5" />
+      <File FileName="OdeToFood.Web/Views/Restaurants/Details.cshtml" Line="6" Column="1" />
+      <File FileName="OdeToFood.Data/Services/InMemoryRestaurantData.cs" Line="16" Column="94" />
+      <File FileName="OdeToFood.Web/Views/Restaurants/NotFound.cshtml" Line="2" Column="22" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="OdeToFood" expanded="True" selected="True">
+          <Node name="OdeToFood" expanded="True">
             <Node name="OdeToFood.Data" expanded="True">
               <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True" />
             </Node>
             <Node name="OdeToFood.Web" expanded="True">
-              <Node name="App_Start" expanded="True" />
+              <Node name="Api" expanded="True" />
               <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Greeting" expanded="True" />
                 <Node name="Home" expanded="True" />
+                <Node name="Restaurants" expanded="True">
+                  <Node name="NotFound.cshtml" selected="True" />
+                </Node>
                 <Node name="Shared" expanded="True" />
               </Node>
               <Node name="Global.asax" expanded="True" />
