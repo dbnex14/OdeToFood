@@ -80,6 +80,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\GreetingController.cs" />
     <Compile Include="Models\GreetingViewModel.cs" />
+    <Compile Include="App_Start\ContainerConfig.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Web.config" />

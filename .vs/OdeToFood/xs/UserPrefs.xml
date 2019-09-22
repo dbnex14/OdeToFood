@@ -1,10 +1,12 @@
 ﻿<Properties StartupConfiguration="{6665AC90-39DD-429D-97AD-7B78AD82FA72}|">
   <MonoDevelop.Ide.ItemProperties.OdeToFood.Web PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="OdeToFood.Web/App_Start/RouteConfig.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="OdeToFood.Web/Global.asax.cs">
     <Files>
       <File FileName="OdeToFood.Web/Controllers/HomeController.cs" Line="18" Column="4" />
       <File FileName="OdeToFood.Web/Views/Home/Index.cshtml" Line="19" Column="6" />
       <File FileName="OdeToFood.Web/App_Start/RouteConfig.cs" Line="1" Column="1" />
+      <File FileName="OdeToFood.Web/App_Start/ContainerConfig.cs" Line="8" Column="1" />
+      <File FileName="OdeToFood.Web/Global.asax.cs" Line="17" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,9 +16,7 @@
               <Node name="Models" expanded="True" />
             </Node>
             <Node name="OdeToFood.Web" expanded="True">
-              <Node name="App_Start" expanded="True">
-                <Node name="RouteConfig.cs" selected="True" />
-              </Node>
+              <Node name="App_Start" expanded="True" />
               <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
@@ -24,7 +24,9 @@
                 <Node name="Home" expanded="True" />
                 <Node name="Shared" expanded="True" />
               </Node>
-              <Node name="Global.asax" expanded="True" />
+              <Node name="Global.asax" expanded="True">
+                <Node name="Global.asax.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
