@@ -1,19 +1,13 @@
 ﻿<Properties StartupConfiguration="{6665AC90-39DD-429D-97AD-7B78AD82FA72}|">
   <MonoDevelop.Ide.ItemProperties.OdeToFood.Web PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="OdeToFood.Data/Services/IRestaurantData.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="OdeToFood.Web/Controllers/RestaurantsController.cs">
     <Files>
       <File FileName="OdeToFood.Web/Controllers/HomeController.cs" Line="20" Column="10" />
-      <File FileName="OdeToFood.Web/App_Start/RouteConfig.cs" Line="1" Column="1" />
-      <File FileName="OdeToFood.Web/App_Start/ContainerConfig.cs" Line="29" Column="1" />
-      <File FileName="OdeToFood.Web/Global.asax.cs" Line="15" Column="71" />
-      <File FileName="OdeToFood.Web/Views/Shared/_Layout.cshtml" Line="26" Column="67" />
-      <File FileName="OdeToFood.Web/App_Start/BundleConfig.cs" Line="1" Column="1" />
-      <File FileName="OdeToFood.Web/Controllers/RestaurantsController.cs" Line="75" Column="76" />
-      <File FileName="OdeToFood.Web/Views/Restaurants/Index.cshtml" Line="11" Column="5" />
-      <File FileName="OdeToFood.Web/Views/Restaurants/Details.cshtml" Line="31" Column="5" />
-      <File FileName="OdeToFood.Web/Views/Restaurants/Create.cshtml" Line="25" Column="29" />
-      <File FileName="OdeToFood.Data/Services/InMemoryRestaurantData.cs" Line="25" Column="60" />
-      <File FileName="OdeToFood.Data/Services/IRestaurantData.cs" Line="12" Column="4" />
+      <File FileName="OdeToFood.Web/Views/Shared/_Layout.cshtml" Line="33" Column="19" />
+      <File FileName="OdeToFood.Web/Views/Restaurants/Index.cshtml" Line="16" Column="14" />
+      <File FileName="OdeToFood.Web/Views/_ViewStart.cshtml" Line="1" Column="1" />
+      <File FileName="OdeToFood.Web/Views/Restaurants/_RestaurantSummary.ascx" Line="1" Column="4" />
+      <File FileName="OdeToFood.Web/Controllers/RestaurantsController.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -21,17 +15,17 @@
           <Node name="OdeToFood" expanded="True">
             <Node name="OdeToFood.Data" expanded="True">
               <Node name="Models" expanded="True" />
-              <Node name="Services" expanded="True">
-                <Node name="IRestaurantData.cs" selected="True" />
-              </Node>
+              <Node name="Services" expanded="True" />
             </Node>
             <Node name="OdeToFood.Web" expanded="True">
               <Node name="Api" expanded="True" />
-              <Node name="Controllers" expanded="True" />
+              <Node name="App_Start" expanded="True" />
+              <Node name="Content" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="RestaurantsController.cs" selected="True" />
+              </Node>
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Greeting" expanded="True" />
-                <Node name="Home" expanded="True" />
                 <Node name="Restaurants" expanded="True" />
                 <Node name="Shared" expanded="True" />
               </Node>
